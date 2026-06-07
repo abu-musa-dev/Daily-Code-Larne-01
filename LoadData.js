@@ -6,20 +6,35 @@
 // const data = wait response.sjon()
 // console.log(data)
 
-async function LoadData() {
+// async function LoadData() {
 
-     const response = await fetch('https://jsonplaceholder.typicode.com/users')
-     const data = await response.json()
-     console.log(data)
-} 
+//      const response = await fetch('https://jsonplaceholder.typicode.com/users')
+//      const data = await response.json()
+//      console.log(data)
+// } 
 
-LoadData()
-
-
+// LoadData()
 
 
+// async function LoadData (){
+//      const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//      const data  = await response.json()
+//      console.log(data)
+// }
 
-   
+// LoadData()
+
+
+// console.log("connected js folder ")
+//  async function LoadData() {
+//    const response = await fetch("https://jsonplaceholder.typicode.com/users")
+//    const data = await response.json()
+//    const user = document.getElementById("users")
+//      data.forEach
+
+// }
+
+// LoadData()
 
 
 
