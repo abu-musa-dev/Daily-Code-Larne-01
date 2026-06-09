@@ -37,4 +37,19 @@ console.log("connected js folder ")
 LoadData()
 
 
+console.log(data)
 
+
+console.log("connected js folder ")
+ async function LoadData() {
+   const response = await fetch("https://jsonplaceholder.typicode.com/users")
+   const data = await response.json()
+   const user = document.getElementById("users")
+     data.forEach
+
+}
+
+LoadData()
+
+
+console.log(data)
