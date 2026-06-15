@@ -30,7 +30,11 @@ client.platform = "kajabi"
 
 console.log(client)
 
+client.name = "Jefa"
+client.experienceYears = 21
+client.platform = "kajabi"
 
+console.log(client)
 
 
 
