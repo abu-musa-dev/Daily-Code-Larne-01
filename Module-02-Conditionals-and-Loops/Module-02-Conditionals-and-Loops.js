@@ -12,3 +12,20 @@
 // else {
 //     console.log("apni gorib apnar taka nai produti nibar taka churi koren ")
 // }
+
+
+
+// important loop
+
+// for(let number=1; number <= 10; number++ ){
+
+//     console.log(number)
+// }
+
+
+
+
+
+// for(let number = 1; number <= 10; number ++ ){
+//     console.log(number)
+// }
