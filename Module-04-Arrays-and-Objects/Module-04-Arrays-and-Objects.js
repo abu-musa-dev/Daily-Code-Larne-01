@@ -29,3 +29,89 @@ const handleSearch = debounce((query) => {
 handleSearch("J");
 handleSearch("Ja");
 handleSearch("JS"); // শুধু এটিই রান হবে
+
+
+
+/**
+ * Recursively creates a deep clone of a given object or array.
+ * @param {any} obj - The object or array to clone.
+ * @returns {any} - The cloned object or array.
+ */
+function deepClone(obj) {
+  // যদি ভ্যালুটি অবজেক্ট বা অ্যারে না হয়, সরাসরি রিটার্ন করবে
+  if (obj === null || typeof obj !== 'object') {
+    return obj;
+  }
+
+  // অ্যারে নাকি অবজেক্ট তা নির্ধারণ করা হচ্ছে
+  const clone = Array.isArray(obj) ? [] : {};
+
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      // রিকার্সিভলি ভেতরের ভ্যালুগুলো ক্লোন করা হচ্ছে
+      clone[key] = deepClone(obj[key]);
+    }
+  }
+
+  return clone;
+}
+
+// ব্যবহারের উদাহরণ:
+const original = {
+  name: "Rahim",
+  skills: ["JavaScript", "React"],
+  address: {
+    city: "Dhaka",
+    zip: 1207
+  }
+};
+
+const cloned = deepClone(original);
+cloned.address.city = "Sylhet"; // ক্লোনড অবজেক্ট পরিবর্তন করা হলো
+
+console.log(original.address.city); // Output: Dhaka (মূল অবজেক্ট অপরিবর্তিত আছে)
+console.log(cloned.address.city);   // Output: Sylhet
+
+
+
+
+
+/**
+ * Recursively creates a deep clone of a given object or array.
+ * @param {any} obj - The object or array to clone.
+ * @returns {any} - The cloned object or array.
+ */
+function deepClone(obj) {
+  // যদি ভ্যালুটি অবজেক্ট বা অ্যারে না হয়, সরাসরি রিটার্ন করবে
+  if (obj === null || typeof obj !== 'object') {
+    return obj;
+  }
+
+  // অ্যারে নাকি অবজেক্ট তা নির্ধারণ করা হচ্ছে
+  const clone = Array.isArray(obj) ? [] : {};
+
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      // রিকার্সিভলি ভেতরের ভ্যালুগুলো ক্লোন করা হচ্ছে
+      clone[key] = deepClone(obj[key]);
+    }
+  }
+
+  return clone;
+}
+
+// ব্যবহারের উদাহরণ:
+const original = {
+  name: "Rahim",
+  skills: ["JavaScript", "React"],
+  address: {
+    city: "Dhaka",
+    zip: 1207
+  }
+};
+
+const cloned = deepClone(original);
+cloned.address.city = "Sylhet"; // ক্লোনড অবজেক্ট পরিবর্তন করা হলো
+
+console.log(original.address.city); // Output: Dhaka (মূল অবজেক্ট অপরিবর্তিত আছে)
+console.log(cloned.address.city);   // Output: Sylhet
