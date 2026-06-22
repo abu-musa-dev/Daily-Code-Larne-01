@@ -115,3 +115,34 @@ cloned.address.city = "Sylhet"; // ক্লোনড অবজেক্ট প�
 
 console.log(original.address.city); // Output: Dhaka (মূল অবজেক্ট অপরিবর্তিত আছে)
 console.log(cloned.address.city);   // Output: Sylhet
+
+
+/**
+ * Finds two numbers in an array that add up to a specific target.
+ * Time Complexity: O(n) | Space Complexity: O(n)
+ * @param {number[]} nums
+ * @param {number} target
+ * @returns {number[]} - Indices of the two numbers
+ */
+function twoSum(nums, target) {
+  const numMap = new Map(); // ভ্যালু এবং ইনডেক্স ট্র্যাক রাখার জন্য
+
+  for (let i = 0; i < nums.length; i++) {
+    const complement = target - nums[i];
+
+    // যদি পরিপূরক সংখ্যাটি ম্যাপে থাকে, তবে ইনডেক্স দুটি রিটার্ন করবে
+    if (numMap.has(complement)) {
+      return [numMap.get(complement), i];
+    }
+
+    // অন্যথায় বর্তমান সংখ্যা এবং ইনডেক্স ম্যাপে যোগ করবে
+    numMap.set(nums[i], i);
+  }
+
+  return []; // কোনো জোড়া পাওয়া না গেলে খালি অ্যারে
+}
+
+// ব্যবহারের উদাহরণ:
+const numbers = [2, 7, 11, 15];
+const targetValue = 9;
+console.log(twoSum(numbers, targetValue)); // Output: [0, 1] (কারণ 2 + 7 = 9)
