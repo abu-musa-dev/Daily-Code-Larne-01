@@ -146,3 +146,25 @@ function twoSum(nums, target) {
 const numbers = [2, 7, 11, 15];
 const targetValue = 9;
 console.log(twoSum(numbers, targetValue)); // Output: [0, 1] (কারণ 2 + 7 = 9)
+
+
+/**
+ * Flattens a deeply nested array into a single-dimensional array.
+ * @param {Array} arr - The nested array.
+ * @returns {Array} - The flattened array.
+ */
+function flattenArray(arr) {
+  return arr.reduce((accumulator, currentValue) => {
+    // যদি বর্তমান উপাদানটি একটি অ্যারে হয়, তবে আবার কল করা হবে
+    if (Array.isArray(currentValue)) {
+      return accumulator.concat(flattenArray(currentValue));
+    } else {
+      return accumulator.concat(currentValue);
+    }
+  }, []);
+}
+
+// ব্যবহারের উদাহরণ:
+const nestedArray = [1, [2, [3, 4], 5], 6, [7]];
+console.log(flattenArray(nestedArray)); 
+// Output: [1, 2, 3, 4, 5, 6, 7]
