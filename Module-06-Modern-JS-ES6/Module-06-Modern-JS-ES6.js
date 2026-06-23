@@ -17,3 +17,9 @@ function isEven(number) {
 }
 
 console.log(isEven(8));
+
+const users = ["Musa", "John", "Sarah"];
+
+users.forEach(user => {
+  console.log(user);
+});
