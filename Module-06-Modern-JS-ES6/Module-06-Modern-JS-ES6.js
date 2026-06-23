@@ -23,3 +23,10 @@ const users = ["Musa", "John", "Sarah"];
 users.forEach(user => {
   console.log(user);
 });
+
+const appInfo = {
+  name: "Demo App",
+  version: "1.0.1"
+};
+
+console.log(appInfo);
