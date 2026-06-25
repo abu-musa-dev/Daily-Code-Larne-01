@@ -43,3 +43,8 @@ function isEven(num) {
 }
 
 console.log(isEven(10));
+function findMax(arr) {
+  return Math.max(...arr);
+}
+
+console.log(findMax([10, 20, 30, 40]));
