@@ -36,3 +36,10 @@ function reverseString(str) {
 }
 
 console.log(reverseString("hello"));
+
+
+function isEven(num) {
+  return num % 2 === 0;
+}
+
+console.log(isEven(10));
