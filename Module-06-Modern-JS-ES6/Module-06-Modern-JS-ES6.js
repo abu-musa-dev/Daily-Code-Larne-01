@@ -30,3 +30,9 @@ const appInfo = {
 };
 
 console.log(appInfo);
+
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+
+console.log(reverseString("hello"));
