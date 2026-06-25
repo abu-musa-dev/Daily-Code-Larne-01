@@ -68,3 +68,10 @@ function sumArray(arr) {
 }
 
 console.log(sumArray([1, 2, 3, 4, 5]));
+
+
+function isPalindrome(str) {
+  return str === str.split("").reverse().join("");
+}
+
+console.log(isPalindrome("madam"));
