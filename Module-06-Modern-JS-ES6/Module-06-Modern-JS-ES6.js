@@ -48,3 +48,10 @@ function findMax(arr) {
 }
 
 console.log(findMax([10, 20, 30, 40]));
+
+
+function countVowels(str) {
+  return str.match(/[aeiou]/gi)?.length || 0;
+}
+
+console.log(countVowels("JavaScript"));
