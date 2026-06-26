@@ -34,3 +34,10 @@ for (let char of text.toLowerCase()) {
 }
 
 console.log(count);
+
+
+let numbers = [1, 2, 2, 3, 4, 4, 5];
+
+let unique = [...new Set(numbers)];
+
+console.log(unique);
