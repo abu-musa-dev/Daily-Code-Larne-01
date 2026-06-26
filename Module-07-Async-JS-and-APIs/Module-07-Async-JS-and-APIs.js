@@ -15,3 +15,10 @@ if (a > b) {
 } else {
   console.log(b);
 }
+
+
+let text = "JavaScript";
+
+let reverse = text.split("").reverse().join("");
+
+console.log(reverse);
