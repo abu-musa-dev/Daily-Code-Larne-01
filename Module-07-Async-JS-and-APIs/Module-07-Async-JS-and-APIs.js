@@ -22,3 +22,15 @@ let text = "JavaScript";
 let reverse = text.split("").reverse().join("");
 
 console.log(reverse);
+
+
+let text = "Programming";
+let count = 0;
+
+for (let char of text.toLowerCase()) {
+  if ("aeiou".includes(char)) {
+    count++;
+  }
+}
+
+console.log(count);
