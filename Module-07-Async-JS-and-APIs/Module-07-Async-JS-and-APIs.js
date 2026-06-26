@@ -41,3 +41,13 @@ let numbers = [1, 2, 2, 3, 4, 4, 5];
 let unique = [...new Set(numbers)];
 
 console.log(unique);
+
+let word = "madam";
+
+let reverse = word.split("").reverse().join("");
+
+if (word === reverse) {
+  console.log("Palindrome");
+} else {
+  console.log("Not Palindrome");
+}
