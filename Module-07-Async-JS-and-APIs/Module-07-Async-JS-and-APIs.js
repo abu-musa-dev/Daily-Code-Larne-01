@@ -131,3 +131,13 @@ if (number > 0) {
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
+
+let word = "madam";
+
+let reversed = word.split("").reverse().join("");
+
+if (word === reversed) {
+  console.log("Palindrome");
+} else {
+  console.log("Not Palindrome");
+}
