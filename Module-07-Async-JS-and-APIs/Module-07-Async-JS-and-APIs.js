@@ -102,3 +102,10 @@ for (let num of numbers) {
 }
 
 console.log(sum);
+
+
+let numbers = [5, 12, 8, 40, 18];
+
+let max = Math.max(...numbers);
+
+console.log(max);
