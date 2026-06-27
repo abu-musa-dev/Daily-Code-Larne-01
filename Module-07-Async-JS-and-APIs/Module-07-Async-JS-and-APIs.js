@@ -116,3 +116,14 @@ let celsius = 30;
 let fahrenheit = (celsius * 9) / 5 + 32;
 
 console.log(fahrenheit);
+
+
+let number = -5;
+
+if (number > 0) {
+  console.log("Positive");
+} else if (number < 0) {
+  console.log("Negative");
+} else {
+  console.log("Zero");
+}
