@@ -127,3 +127,7 @@ if (number > 0) {
 } else {
   console.log("Zero");
 }
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
