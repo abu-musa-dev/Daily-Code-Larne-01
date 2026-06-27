@@ -109,3 +109,10 @@ let numbers = [5, 12, 8, 40, 18];
 let max = Math.max(...numbers);
 
 console.log(max);
+
+
+let celsius = 30;
+
+let fahrenheit = (celsius * 9) / 5 + 32;
+
+console.log(fahrenheit);
