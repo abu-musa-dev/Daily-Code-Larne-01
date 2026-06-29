@@ -208,3 +208,13 @@ let numbers = [1, 2, 2, 3, 4, 4, 5];
 let uniqueNumbers = [...new Set(numbers)];
 
 console.log(uniqueNumbers);
+
+let word = "madam";
+
+let reversed = word.split("").reverse().join("");
+
+if (word === reversed) {
+    console.log("Palindrome");
+} else {
+    console.log("Not Palindrome");
+}
