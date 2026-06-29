@@ -165,3 +165,15 @@ let text = "JavaScript";
 let reversed = text.split("").reverse().join("");
 
 console.log(reversed);
+
+
+let text = "Hello World";
+let count = 0;
+
+for (let char of text.toLowerCase()) {
+    if ("aeiou".includes(char)) {
+        count++;
+    }
+}
+
+console.log(count);
