@@ -177,3 +177,12 @@ for (let char of text.toLowerCase()) {
 }
 
 console.log(count);
+
+let numbers = [10, 20, 30, 40];
+let sum = 0;
+
+for (let num of numbers) {
+    sum += num;
+}
+
+console.log(sum);
