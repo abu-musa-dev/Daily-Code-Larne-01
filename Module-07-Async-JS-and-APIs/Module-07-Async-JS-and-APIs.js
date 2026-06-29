@@ -218,3 +218,12 @@ if (word === reversed) {
 } else {
     console.log("Not Palindrome");
 }
+
+let numbers = [10, 20, 30, 40];
+let sum = 0;
+
+for (let num of numbers) {
+    sum += num;
+}
+
+console.log(sum);
