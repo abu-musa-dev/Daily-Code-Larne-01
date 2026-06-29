@@ -159,3 +159,9 @@ if (a > b) {
 } else {
     console.log(b);
 }
+
+let text = "JavaScript";
+
+let reversed = text.split("").reverse().join("");
+
+console.log(reversed);
