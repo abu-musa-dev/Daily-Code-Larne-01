@@ -130,7 +130,15 @@ function factorial(n) {
 
 console.log(factorial(5));
 
+function largestWord(sentence) {
+  return sentence
+    .split(" ")
+    .reduce((longest, word) =>
+      word.length > longest.length ? word : longest
+    );
+}
 
+console.log(largestWord("I love learning JavaScript everyday"));
 
 
 
