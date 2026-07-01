@@ -96,3 +96,6 @@ console.log(celsiusToFahrenheit(30)); // Output: 86
 
 const countVowels = (str) => (str.match(/[aeiou]/gi) || []).length;
 console.log(countVowels("javascript")); // Output: 3
+
+const isPalindrome = (str) => str === str.split('').reverse().join('');
+console.log(isPalindrome("racecar")); // Output: true
