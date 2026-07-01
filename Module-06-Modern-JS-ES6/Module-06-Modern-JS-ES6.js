@@ -99,3 +99,6 @@ console.log(countVowels("javascript")); // Output: 3
 
 const isPalindrome = (str) => str === str.split('').reverse().join('');
 console.log(isPalindrome("racecar")); // Output: true
+
+const findLargest = (arr) => Math.max(...arr);
+console.log(findLargest([10, 5, 20, 15])); // Output: 20
