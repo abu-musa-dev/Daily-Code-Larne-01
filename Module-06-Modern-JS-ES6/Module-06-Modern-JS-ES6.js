@@ -93,3 +93,6 @@ const filterEvens = (arr) => arr.filter(num => num % 2 === 0);
 console.log(filterEvens([1, 2, 3, 4, 5, 6])); // Output: [2, 4, 6]
 const celsiusToFahrenheit = (c) => (c * 9) / 5 + 32;
 console.log(celsiusToFahrenheit(30)); // Output: 86
+
+const countVowels = (str) => (str.match(/[aeiou]/gi) || []).length;
+console.log(countVowels("javascript")); // Output: 3
