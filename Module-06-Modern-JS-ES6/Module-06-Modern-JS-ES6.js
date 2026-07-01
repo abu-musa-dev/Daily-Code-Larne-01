@@ -78,3 +78,6 @@ console.log(isPalindrome("madam"));
 
 const sum = (a, b) => a + b;
 console.log(sum(5, 10)); // Output: 15
+
+const isEven = (num) => num % 2 === 0;
+console.log(isEven(8)); // Output: true
