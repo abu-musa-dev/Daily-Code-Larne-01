@@ -91,3 +91,5 @@ const factorial = (n) => (n <= 1 ? 1 : n * factorial(n - 1));
 console.log(factorial(5)); // Output: 120
 const filterEvens = (arr) => arr.filter(num => num % 2 === 0);
 console.log(filterEvens([1, 2, 3, 4, 5, 6])); // Output: [2, 4, 6]
+const celsiusToFahrenheit = (c) => (c * 9) / 5 + 32;
+console.log(celsiusToFahrenheit(30)); // Output: 86
