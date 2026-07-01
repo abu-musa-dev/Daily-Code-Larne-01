@@ -81,3 +81,6 @@ console.log(sum(5, 10)); // Output: 15
 
 const isEven = (num) => num % 2 === 0;
 console.log(isEven(8)); // Output: true
+
+const findMax = (a, b, c) => Math.max(a, b, c);
+console.log(findMax(12, 45, 23)); // Output: 45
