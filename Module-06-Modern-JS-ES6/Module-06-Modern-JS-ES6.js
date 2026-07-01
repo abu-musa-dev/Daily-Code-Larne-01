@@ -84,3 +84,6 @@ console.log(isEven(8)); // Output: true
 
 const findMax = (a, b, c) => Math.max(a, b, c);
 console.log(findMax(12, 45, 23)); // Output: 45
+
+const reverseString = (str) => str.split('').reverse().join('');
+console.log(reverseString("hello")); // Output: "olleh"
