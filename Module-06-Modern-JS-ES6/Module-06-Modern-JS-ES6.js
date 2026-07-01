@@ -87,3 +87,5 @@ console.log(findMax(12, 45, 23)); // Output: 45
 
 const reverseString = (str) => str.split('').reverse().join('');
 console.log(reverseString("hello")); // Output: "olleh"
+const factorial = (n) => (n <= 1 ? 1 : n * factorial(n - 1));
+console.log(factorial(5)); // Output: 120
