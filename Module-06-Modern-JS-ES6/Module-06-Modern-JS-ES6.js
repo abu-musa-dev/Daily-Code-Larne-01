@@ -148,7 +148,8 @@ for(let i=1;i<=5;i++){
 }
 
 
-
+let text = "hello world";
+console.log(text.toUpperCase());
 
 
 
