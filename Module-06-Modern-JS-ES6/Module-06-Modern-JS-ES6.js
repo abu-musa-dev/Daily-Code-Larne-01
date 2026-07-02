@@ -140,7 +140,9 @@ let arr = [10,50,30,5];
 console.log(Math.max(...arr));
 
 
+let num = -10;
 
+console.log(num >= 0 ? "Positive" : "Negative");
 
 
 
