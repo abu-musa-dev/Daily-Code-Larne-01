@@ -106,3 +106,11 @@ console.log(findLargest([10, 5, 20, 15])); // Output: 20
 let a = 5;
 let b = 10;
 console.log(a + b);
+
+let num = 8;
+
+if(num % 2 === 0){
+  console.log("Even");
+}else{
+  console.log("Odd");
+}
