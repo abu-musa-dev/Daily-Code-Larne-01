@@ -102,3 +102,7 @@ console.log(isPalindrome("racecar")); // Output: true
 
 const findLargest = (arr) => Math.max(...arr);
 console.log(findLargest([10, 5, 20, 15])); // Output: 20
+
+let a = 5;
+let b = 10;
+console.log(a + b);
