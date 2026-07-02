@@ -121,3 +121,24 @@ console.log(a > b ? a : b);
 
 let str = "hello";
 console.log(str.split("").reverse().join(""));
+
+
+let text = "javascript";
+console.log(text.length);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
