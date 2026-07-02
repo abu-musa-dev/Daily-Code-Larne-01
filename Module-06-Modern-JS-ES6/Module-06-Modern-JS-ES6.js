@@ -118,3 +118,6 @@ if(num % 2 === 0){
 let a = 10, b = 20;
 
 console.log(a > b ? a : b);
+
+let str = "hello";
+console.log(str.split("").reverse().join(""));
