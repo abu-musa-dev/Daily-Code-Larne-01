@@ -136,7 +136,8 @@ for(let i=0;i<arr.length;i++){
 console.log(sum);
 
 
-
+let arr = [10,50,30,5];
+console.log(Math.max(...arr));
 
 
 
