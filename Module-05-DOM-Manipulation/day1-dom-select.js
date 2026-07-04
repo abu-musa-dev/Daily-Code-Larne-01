@@ -77,3 +77,6 @@ function greet(name) {
   return `Hello, ${name}!`;
 }
 console.log(greet("Md"));
+// problem6.js
+const person = { name: "Alice", age: 25 };
+console.log(person.name, person.age);
