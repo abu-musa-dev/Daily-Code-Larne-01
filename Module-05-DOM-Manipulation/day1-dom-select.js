@@ -63,3 +63,6 @@ const baseClient = {
     name: "Jetsy",
     platform: "Kajabi"
 };
+// problem2.js
+const a = 5, b = 10;
+console.log(a + b);
