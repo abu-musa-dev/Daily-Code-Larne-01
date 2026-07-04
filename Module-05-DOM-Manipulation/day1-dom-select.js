@@ -69,3 +69,6 @@ console.log(a + b);
 // problem3.js
 const num = 7;
 console.log(num % 2 === 0 ? "Even" : "Odd");
+// problem4.js
+const fruits = ["Apple", "Banana", "Cherry"];
+fruits.forEach(fruit => console.log(fruit));
