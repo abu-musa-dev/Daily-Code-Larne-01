@@ -72,3 +72,8 @@ console.log(num % 2 === 0 ? "Even" : "Odd");
 // problem4.js
 const fruits = ["Apple", "Banana", "Cherry"];
 fruits.forEach(fruit => console.log(fruit));
+// problem5.js
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+console.log(greet("Md"));
