@@ -93,3 +93,7 @@ for(let i = 1; i <= 5; i++){
 const score = 80;
 if(score >= 50) console.log("Pass");
 else console.log("Fail");
+
+// problem10.js
+const n = 6;
+console.log(n * n);
