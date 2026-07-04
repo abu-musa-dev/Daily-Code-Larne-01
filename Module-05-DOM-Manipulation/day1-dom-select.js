@@ -66,3 +66,6 @@ const baseClient = {
 // problem2.js
 const a = 5, b = 10;
 console.log(a + b);
+// problem3.js
+const num = 7;
+console.log(num % 2 === 0 ? "Even" : "Odd");
