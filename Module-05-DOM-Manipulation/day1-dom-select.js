@@ -88,3 +88,8 @@ console.log(str.length);
 for(let i = 1; i <= 5; i++){
   console.log(i);
 }
+
+// problem9.js
+const score = 80;
+if(score >= 50) console.log("Pass");
+else console.log("Fail");
