@@ -83,3 +83,8 @@ console.log(person.name, person.age);
 // problem7.js
 const str = "JavaScript";
 console.log(str.length);
+
+// problem8.js
+for(let i = 1; i <= 5; i++){
+  console.log(i);
+}
