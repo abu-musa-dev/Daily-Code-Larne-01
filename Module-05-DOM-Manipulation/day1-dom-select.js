@@ -54,8 +54,10 @@ const array2 = ["kodu", "karpet", "kakroll"]
 // const allarray = [...array1, ...array2]
 
 // console.log(allarray)
-
-
+// problem1.js
+const array1 = ["komla", "appple", "litchu"];
+const reversed = array1.reverse();
+console.log(reversed);
 
 const baseClient = {
     name: "Jetsy",
