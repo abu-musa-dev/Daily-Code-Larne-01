@@ -26,3 +26,12 @@ if (a > b) {
 } else {
   console.log(b);
 }
+
+let a = 40;
+let b = 25;
+
+if (a > b) {
+  console.log(a);
+} else {
+  console.log(b);
+}
