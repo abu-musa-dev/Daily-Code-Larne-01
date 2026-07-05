@@ -17,3 +17,12 @@ if (number % 2 === 0) {
 } else {
   console.log("Odd");
 }
+
+let a = 40;
+let b = 25;
+
+if (a > b) {
+  console.log(a);
+} else {
+  console.log(b);
+}
