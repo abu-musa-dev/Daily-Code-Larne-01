@@ -56,3 +56,14 @@ let person = {
 
 console.log(person.name);
 console.log(person.age);
+
+function multiply(a, b) {
+  return a * b;
+}
+
+console.log(multiply(5, 6));
+function multiply(a, b) {
+  return a * b;
+}
+
+console.log(multiply(5, 6));
