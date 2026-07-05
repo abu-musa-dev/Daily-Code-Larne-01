@@ -38,3 +38,9 @@ if (a > b) {
 for (let i = 1; i <= 10; i++) {
   console.log(i);
 }
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(5, 8));
