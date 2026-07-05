@@ -44,3 +44,7 @@ function add(a, b) {
 }
 
 console.log(add(5, 8));
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+console.log(fruits[0]);
