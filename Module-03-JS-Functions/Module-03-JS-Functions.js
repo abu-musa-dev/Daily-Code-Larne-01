@@ -48,3 +48,11 @@ console.log(add(5, 8));
 let fruits = ["Apple", "Banana", "Mango"];
 
 console.log(fruits[0]);
+
+let person = {
+  name: "Musa",
+  age: 22,
+};
+
+console.log(person.name);
+console.log(person.age);
