@@ -210,3 +210,22 @@ function addTask(title) {
 console.log(addTask("Learn JavaScript")); // সফল হওয়া উচিত
 console.log(addTask("   ")); // এরর মেসেজ আসা উচিত
 console.log(addTask(12345)); // এরর হ্যান্ডলার ক্যাচ করা উচিত
+const tasks = [];
+let nextId = 1;
+
+function addTask(title) {
+    try {
+        if (typeof title !== "string") {
+            throw new Error("Input must be a string");
+        }
+        if (!title || title.trim() === "") {
+            return "Error: Task title cannot be empty";
+        }
+        const newTask = { id: nextId++, title: title.trim(), completed: false };
+        tasks.push(newTask);
+        return newTask;
+    } catch (error) {
+        return `Error: ${error.message}`;
+    }
+}
+// CLEANUP: অতিরিক্ত সব টেস্ট কনসোল লগ ডিলিট করা হলো
