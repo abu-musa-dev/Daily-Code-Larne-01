@@ -229,3 +229,10 @@ function addTask(title) {
     }
 }
 // CLEANUP: অতিরিক্ত সব টেস্ট কনসোল লগ ডিলিট করা হলো
+// CHORE: প্রাথমিক কাজের সুবিধার জন্য কিছু মক বা ডিফল্ট ডাটা যোগ করা হলো
+const tasks = [
+    { id: 100, title: "Mock task for testing", completed: false }
+];
+let nextId = 101; 
+
+// ... বাকি কোড ...
