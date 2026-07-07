@@ -235,4 +235,21 @@ const tasks = [
 ];
 let nextId = 101; 
 
-// ... বাকি কোড ...
+// ... বাকি কোড ...const tasksList = []; // RENAME: tasks থেকে tasksList করা হলো
+let taskIdCounter = 1; // RENAME: nextId থেকে taskIdCounter করা হলো
+
+function addTask(title) {
+    try {
+        if (typeof title !== "string") {
+            throw new Error("Input must be a string");
+        }
+        if (!title || title.trim() === "") {
+            return "Error: Task title cannot be empty";
+        }
+        const newTask = { id: taskIdCounter++, title: title.trim(), completed: false };
+        tasksList.push(newTask);
+        return newTask;
+    } catch (error) {
+        return `Error: ${error.message}`;
+    }
+}
