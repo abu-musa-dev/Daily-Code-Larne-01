@@ -252,4 +252,11 @@ function addTask(title) {
     } catch (error) {
         return `Error: ${error.message}`;
     }
+}/**
+ * নতুন টাস্ক যোগ করার ফাংশন
+ * @param {string} title - টাস্কের নাম বা টাইটেল
+ * @returns {object|string} - নতুন তৈরি হওয়া টাস্ক অবজেক্ট অথবা এরর মেসেজ
+ */
+function addTask(title) {
+    // ... কোড ...
 }
