@@ -154,6 +154,12 @@ console.log(text.toUpperCase());
 // Task Manager প্রজেক্টের প্রাথমিক সেটিংস
 const tasks = [];
 
+const tasks = [];
 
+function addTask(title) {
+    const newTask = { id: tasks.length + 1, title: title, completed: false };
+    tasks.push(newTask);
+    return newTask;
+}
 
 
