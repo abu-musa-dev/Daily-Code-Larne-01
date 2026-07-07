@@ -161,5 +161,15 @@ function addTask(title) {
     tasks.push(newTask);
     return newTask;
 }
+const tasks = [];
 
+function addTask(title) {
+    // BUG FIX: খালি বা স্পেস দেওয়া টাস্ক ইনপুট নেওয়া যাবে না
+    if (!title || title.trim() === "") {
+        return "Error: Task title cannot be empty";
+    }
+    const newTask = { id: tasks.length + 1, title: title.trim(), completed: false };
+    tasks.push(newTask);
+    return newTask;
+}
 
