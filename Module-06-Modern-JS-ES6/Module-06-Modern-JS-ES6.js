@@ -173,3 +173,14 @@ function addTask(title) {
     return newTask;
 }
 
+const tasks = [];
+let nextId = 1; // REFACTOR: আইডি কাউন্টার আলাদা করা হলো
+
+function addTask(title) {
+    if (!title || title.trim() === "") {
+        return "Error: Task title cannot be empty";
+    }
+    const newTask = { id: nextId++, title: title.trim(), completed: false };
+    tasks.push(newTask);
+    return newTask;
+}
