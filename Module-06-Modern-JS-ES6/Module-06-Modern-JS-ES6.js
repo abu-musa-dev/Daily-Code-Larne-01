@@ -151,6 +151,8 @@ for(let i=1;i<=5;i++){
 let text = "hello world";
 console.log(text.toUpperCase());
 
+// Task Manager প্রজেক্টের প্রাথমিক সেটিংস
+const tasks = [];
 
 
 
