@@ -203,3 +203,10 @@ function addTask(title) {
         return `Error: ${error.message}`; // ERROR HANDLING
     }
 }
+
+// ... আগের কোড ...
+
+// TEST CASES: কোড টেস্ট করা হচ্ছে
+console.log(addTask("Learn JavaScript")); // সফল হওয়া উচিত
+console.log(addTask("   ")); // এরর মেসেজ আসা উচিত
+console.log(addTask(12345)); // এরর হ্যান্ডলার ক্যাচ করা উচিত
