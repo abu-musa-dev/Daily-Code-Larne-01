@@ -184,3 +184,22 @@ function addTask(title) {
     tasks.push(newTask);
     return newTask;
 }
+
+const tasks = [];
+let nextId = 1;
+
+function addTask(title) {
+    try {
+        if (typeof title !== "string") {
+            throw new Error("Input must be a string");
+        }
+        if (!title || title.trim() === "") {
+            return "Error: Task title cannot be empty";
+        }
+        const newTask = { id: nextId++, title: title.trim(), completed: false };
+        tasks.push(newTask);
+        return newTask;
+    } catch (error) {
+        return `Error: ${error.message}`; // ERROR HANDLING
+    }
+}
