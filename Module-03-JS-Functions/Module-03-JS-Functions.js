@@ -67,3 +67,4 @@ function multiply(a, b) {
 }
 
 console.log(multiply(5, 6));
+console.log("Hello, World!");
