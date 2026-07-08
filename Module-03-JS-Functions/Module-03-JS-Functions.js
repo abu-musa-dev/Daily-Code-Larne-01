@@ -106,4 +106,8 @@ console.log(fruits.length);let person = {
 };
 
 console.log(person.name);
-console.log(person.age);
+console.log(person.age);function add(a, b) {
+    return a + b;
+}
+
+console.log(add(10, 20));
