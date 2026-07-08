@@ -98,4 +98,6 @@ for (let i = 1; i <= 10; i++) {
 console.log(sum);
 let text = "JavaScript";
 
-console.log(text.split("").reverse().join(""));
+console.log(text.split("").reverse().join(""));let fruits = ["Apple", "Banana", "Orange", "Mango"];
+
+console.log(fruits.length);
