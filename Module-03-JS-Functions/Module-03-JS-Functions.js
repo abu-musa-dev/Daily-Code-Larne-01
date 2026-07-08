@@ -100,4 +100,10 @@ let text = "JavaScript";
 
 console.log(text.split("").reverse().join(""));let fruits = ["Apple", "Banana", "Orange", "Mango"];
 
-console.log(fruits.length);
+console.log(fruits.length);let person = {
+    name: "Musa",
+    age: 22
+};
+
+console.log(person.name);
+console.log(person.age);
