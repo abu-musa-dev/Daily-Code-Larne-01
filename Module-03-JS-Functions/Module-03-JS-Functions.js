@@ -140,4 +140,7 @@ console.log(celsiusToFahrenheit(30));function factorial(n) {
 }
 console.log(factorial(5));const array = [10, 20, 30, 40];
 const sum = array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
-console.log(sum);
+console.log(sum);function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(getRandomNumber(1, 100));
