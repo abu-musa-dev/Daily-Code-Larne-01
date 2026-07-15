@@ -143,4 +143,6 @@ const sum = array.reduce((accumulator, currentValue) => accumulator + currentVal
 console.log(sum);function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-console.log(getRandomNumber(1, 100));
+console.log(getRandomNumber(1, 100));const duplicateNumbers = [1, 2, 2, 3, 4, 4, 5];
+const uniqueNumbers = [...new Set(duplicateNumbers)];
+console.log(uniqueNumbers);
