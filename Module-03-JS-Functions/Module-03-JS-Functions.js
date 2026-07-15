@@ -122,3 +122,6 @@ function isEven(number) {
 }
 console.log(isEven(4)); 
 console.log(isEven(7));
+const numbers = [3, 7, 2, 9, 5];
+const maxNumber = Math.max(...numbers);
+console.log(maxNumber);
