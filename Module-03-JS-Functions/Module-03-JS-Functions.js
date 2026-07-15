@@ -117,3 +117,8 @@ function addNumbers(a, b) {
   return a + b;
 }
 console.log(addNumbers(5, 10));
+function isEven(number) {
+  return number % 2 === 0;
+}
+console.log(isEven(4)); 
+console.log(isEven(7));
