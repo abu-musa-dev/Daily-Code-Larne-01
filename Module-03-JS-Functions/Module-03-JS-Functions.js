@@ -138,4 +138,6 @@ console.log(celsiusToFahrenheit(30));function factorial(n) {
   }
   return n * factorial(n - 1);
 }
-console.log(factorial(5));
+console.log(factorial(5));const array = [10, 20, 30, 40];
+const sum = array.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+console.log(sum);
