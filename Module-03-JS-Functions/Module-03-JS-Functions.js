@@ -128,3 +128,8 @@ console.log(maxNumber);function reverseString(str) {
   return str.split("").reverse().join("");
 }
 console.log(reverseString("hello"));
+
+function celsiusToFahrenheit(celsius) {
+  return (celsius * 9) / 5 + 32;
+}
+console.log(celsiusToFahrenheit(30));
