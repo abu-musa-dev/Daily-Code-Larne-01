@@ -69,3 +69,18 @@ function celsiusToFahrenheit(celsius) {
   return (celsius * 9) / 5 + 32;
 }
 console.log(celsiusToFahrenheit(30)); // Output: 86
+git add .
+git commit -m "feat: add celsius to fahrenheit converter"
+git push
+// fibonacci.js
+function generateFibonacci(n) {
+  const sequence = [0, 1];
+  for (let i = 2; i < n; i++) {
+    sequence.push(sequence[i - 1] + sequence[i - 2]);
+  }
+  return sequence.slice(0, n);
+}
+console.log(generateFibonacci(6)); // Output: [0, 1, 1, 2, 3, 5]
+git add .
+git commit -m "feat: add fibonacci sequence generator"
+git push
