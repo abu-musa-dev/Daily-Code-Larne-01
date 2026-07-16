@@ -39,4 +39,10 @@ function findMax(arr) {
 console.log(findMax([10, 5, 20, 8])); // Output: 20
 git add .
 git commit -m "feat: add function to find maximum number in array"
-git push
+git push// palindrome.js
+function isPalindrome(str) {
+  const cleanStr = str.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const reversedStr = cleanStr.split("").reverse().join("");
+  return cleanStr === reversedStr;
+}
+console.log(isPalindrome("madam")); // Output: true
