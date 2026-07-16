@@ -3,3 +3,11 @@ function checkEvenOdd(num) {
   return num % 2 === 0 ? "Even" : "Odd";
 }
 console.log(checkEvenOdd(7)); // Output: Odd
+
+// git add .
+// git commit -m "feat: add even-odd number checker"
+// git push// even-odd.js
+function checkEvenOdd(num) {
+  return num % 2 === 0 ? "Even" : "Odd";
+}
+console.log(checkEvenOdd(7)); // Output: Odd
