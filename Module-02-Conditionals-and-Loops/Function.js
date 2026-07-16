@@ -29,3 +29,14 @@ function factorial(n) {
   return n * factorial(n - 1);
 }
 console.log(factorial(5)); // Output: 120
+git add .
+git commit -m "feat: add factorial calculation using recursion"
+git push
+// max-number.js
+function findMax(arr) {
+  return Math.max(...arr);
+}
+console.log(findMax([10, 5, 20, 8])); // Output: 20
+git add .
+git commit -m "feat: add function to find maximum number in array"
+git push
