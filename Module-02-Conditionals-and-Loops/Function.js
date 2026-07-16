@@ -54,4 +54,11 @@ function countVowels(str) {
 console.log(countVowels("javascript")); // Output: 3
 git add .
 git commit -m "feat: add vowel count function"
-git push
+git push// fizzbuzz.js
+function fizzBuzz(num) {
+  if (num % 3 === 0 && num % 5 === 0) return "FizzBuzz";
+  if (num % 3 === 0) return "Fizz";
+  if (num % 5 === 0) return "Buzz";
+  return num.toString();
+}
+console.log(fizzBuzz(15)); // Output: FizzBuzz
