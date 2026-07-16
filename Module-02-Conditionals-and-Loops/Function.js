@@ -46,3 +46,12 @@ function isPalindrome(str) {
   return cleanStr === reversedStr;
 }
 console.log(isPalindrome("madam")); // Output: true
+// vowel-count.js
+function countVowels(str) {
+  const matches = str.match(/[aeiou]/gi);
+  return matches ? matches.length : 0;
+}
+console.log(countVowels("javascript")); // Output: 3
+git add .
+git commit -m "feat: add vowel count function"
+git push
