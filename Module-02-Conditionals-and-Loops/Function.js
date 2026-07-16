@@ -62,3 +62,10 @@ function fizzBuzz(num) {
   return num.toString();
 }
 console.log(fizzBuzz(15)); // Output: FizzBuzz
+git add .
+git commit -m "feat: add simple fizzbuzz algorithm"
+git push// celsius-to-fahrenheit.js
+function celsiusToFahrenheit(celsius) {
+  return (celsius * 9) / 5 + 32;
+}
+console.log(celsiusToFahrenheit(30)); // Output: 86
