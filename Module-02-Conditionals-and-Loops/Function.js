@@ -21,6 +21,11 @@ function reverseString(str) {
 console.log(reverseString("hello")); // Output: olleh
 
 
-git add reverse-string.js
+git add .
 git commit -m "feat: add string reversal function"
-git push
+git push// factorial.js
+function factorial(n) {
+  if (n === 0 || n === 1) return 1;
+  return n * factorial(n - 1);
+}
+console.log(factorial(5)); // Output: 120
