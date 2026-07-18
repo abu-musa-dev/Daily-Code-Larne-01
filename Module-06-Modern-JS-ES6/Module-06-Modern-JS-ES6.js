@@ -265,4 +265,8 @@ function addTask(title) {
 console.log(reverseString("hello")); // Output: "olleh"function findLargestNum(arr) {
     return Math.max(...arr);
 }
-console.log(findLargestNum([10, 5, 20, 8])); // Output: 20
+console.log(findLargestNum([10, 5, 20, 8])); // Output: 20function isPalindrome(str) {
+    const reversed = str.split('').reverse().join('');
+    return str === reversed;
+}
+console.log(isPalindrome("madam")); // Output: true
