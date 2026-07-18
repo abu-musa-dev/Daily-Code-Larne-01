@@ -284,4 +284,8 @@ console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5])); // Output: [1, 2, 3, 4, 5]
         else console.log(i);
     }
 }
-fizzBuzz(15);
+fizzBuzz(15);function countVowels(str) {
+    const matches = str.match(/[aeiou]/gi);
+    return matches ? matches.length : 0;
+}
+console.log(countVowels("javascript")); // Output: 3
