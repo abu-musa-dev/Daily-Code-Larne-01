@@ -259,4 +259,7 @@ function addTask(title) {
  */
 function addTask(title) {
     // ... কোড ...
+}function reverseString(str) {
+    return str.split('').reverse().join('');
 }
+console.log(reverseString("hello")); // Output: "olleh"
