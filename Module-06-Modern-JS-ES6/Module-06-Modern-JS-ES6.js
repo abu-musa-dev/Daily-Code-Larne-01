@@ -262,4 +262,7 @@ function addTask(title) {
 }function reverseString(str) {
     return str.split('').reverse().join('');
 }
-console.log(reverseString("hello")); // Output: "olleh"
+console.log(reverseString("hello")); // Output: "olleh"function findLargestNum(arr) {
+    return Math.max(...arr);
+}
+console.log(findLargestNum([10, 5, 20, 8])); // Output: 20
