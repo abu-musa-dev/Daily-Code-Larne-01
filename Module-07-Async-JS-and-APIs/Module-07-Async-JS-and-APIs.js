@@ -234,3 +234,4 @@ Problem: এমন একটি ফাংশন লিখুন যা কোন
 7. Find the Factorial of a Number (ফ্যাক্টোরিয়াল বের করা)
 8. Check for Prime Number (মৌলিক সংখ্যা কিনা পরীক্ষা করা)
 9. Convert Celsius to Fahrenheit (তাপমাত্রা রূপান্তর)
+9. Convert Celsius to Fahrenheit (তাপমাত্রা রূপান্তর)
