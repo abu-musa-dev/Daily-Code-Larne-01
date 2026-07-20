@@ -233,3 +233,4 @@ Problem: ১ থেকে ৫০ পর্যন্ত সংখ্যাগু�
 Problem: এমন একটি ফাংশন লিখুন যা কোনো স্ট্রিং ইনপুট হিসেবে নিয়ে তার মধ্যে কতটি ভাওয়েল (a, e, i, o, u) আছে তা গণনা করে রিটার্ন করবে।6. Remove Duplicates from an Array (অ্যারে থেকে ডুপ্লিকেট বাদ দেওয়া)
 7. Find the Factorial of a Number (ফ্যাক্টোরিয়াল বের করা)
 8. Check for Prime Number (মৌলিক সংখ্যা কিনা পরীক্ষা করা)
+9. Convert Celsius to Fahrenheit (তাপমাত্রা রূপান্তর)
