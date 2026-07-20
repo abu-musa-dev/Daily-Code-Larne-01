@@ -226,4 +226,4 @@ for (let num of numbers) {
     sum += num;
 }
 
-console.log(sum);
+console.log(sum);Problem: এমন একটি ফাংশন লিখুন যা কোনো স্ট্রিংকে ইনপুট হিসেবে নিয়ে সেটিকে উল্টো (reverse) করে রিটার্ন করবে। (যেমন: "hello" ইনপুট দিলে আউটপুট হবে "olleh")
