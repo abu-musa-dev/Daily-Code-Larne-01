@@ -16,4 +16,11 @@ if (a > b) {
   console.log(b);for (let i = 1; i <= 10; i++) {
   console.log(`5 x ${i} = ${5 * i}`);
 }
+}let numbers = [10, 20, 30, 40];
+let sum = 0;
+
+for (let num of numbers) {
+  sum += num;
 }
+
+console.log(sum);
