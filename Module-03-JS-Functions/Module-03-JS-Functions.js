@@ -23,4 +23,6 @@ for (let num of numbers) {
   sum += num;
 }
 
-console.log(sum);
+console.log(sum);let text = "JavaScript";
+
+console.log(text.split("").reverse().join(""));
