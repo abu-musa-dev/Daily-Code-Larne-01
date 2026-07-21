@@ -13,5 +13,7 @@ let b = 80;
 if (a > b) {
   console.log(a);
 } else {
-  console.log(b);
+  console.log(b);for (let i = 1; i <= 10; i++) {
+  console.log(`5 x ${i} = ${5 * i}`);
+}
 }
