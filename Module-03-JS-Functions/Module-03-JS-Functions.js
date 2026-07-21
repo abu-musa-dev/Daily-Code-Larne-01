@@ -36,4 +36,8 @@ for (let char of text.toLowerCase()) {
 
 console.log(count);let numbers = [10, 80, 25, 100, 45];
 
-console.log(Math.max(...numbers));
+console.log(Math.max(...numbers));function add(a, b) {
+  return a + b;
+}
+
+console.log(add(15, 35));
