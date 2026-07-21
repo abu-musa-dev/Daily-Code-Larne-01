@@ -25,4 +25,13 @@ for (let num of numbers) {
 
 console.log(sum);let text = "JavaScript";
 
-console.log(text.split("").reverse().join(""));
+console.log(text.split("").reverse().join(""));let text = "Bangladesh";
+let count = 0;
+
+for (let char of text.toLowerCase()) {
+  if ("aeiou".includes(char)) {
+    count++;
+  }
+}
+
+console.log(count);
