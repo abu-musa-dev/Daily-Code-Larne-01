@@ -34,4 +34,6 @@ for (let char of text.toLowerCase()) {
   }
 }
 
-console.log(count);
+console.log(count);let numbers = [10, 80, 25, 100, 45];
+
+console.log(Math.max(...numbers));
