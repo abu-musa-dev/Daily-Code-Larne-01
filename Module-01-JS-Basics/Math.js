@@ -37,4 +37,13 @@ console.log(multiply(5, 6));let person = {
 console.log(person.name);
 console.log(person.age);let numbers = [12, 45, 8, 67, 23];
 
-console.log(Math.max(...numbers));
+console.log(Math.max(...numbers));let text = "JavaScript";
+let count = 0;
+
+for (let char of text.toLowerCase()) {
+  if ("aeiou".includes(char)) {
+    count++;
+  }
+}
+
+console.log(count);
