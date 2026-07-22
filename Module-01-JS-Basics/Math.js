@@ -29,4 +29,10 @@ console.log(text.split("").reverse().join(""));function multiply(a, b) {
   return a * b;
 }
 
-console.log(multiply(5, 6));
+console.log(multiply(5, 6));let person = {
+  name: "Musa",
+  age: 22,
+};
+
+console.log(person.name);
+console.log(person.age);
