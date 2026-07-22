@@ -25,4 +25,8 @@ for (let num of numbers) {
 
 console.log(sum);let text = "JavaScript";
 
-console.log(text.split("").reverse().join(""));
+console.log(text.split("").reverse().join(""));function multiply(a, b) {
+  return a * b;
+}
+
+console.log(multiply(5, 6));
