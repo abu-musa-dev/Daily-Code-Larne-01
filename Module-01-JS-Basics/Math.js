@@ -35,4 +35,6 @@ console.log(multiply(5, 6));let person = {
 };
 
 console.log(person.name);
-console.log(person.age);
+console.log(person.age);let numbers = [12, 45, 8, 67, 23];
+
+console.log(Math.max(...numbers));
