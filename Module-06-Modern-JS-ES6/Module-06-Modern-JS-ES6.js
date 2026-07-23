@@ -331,4 +331,11 @@ for (let fruit of fruits) {
     return a + b;
 }
 
-console.log(add(20, 30));
+console.log(add(20, 30));let student = {
+    name: "Rahim",
+    age: 20,
+    department: "CSE"
+};
+
+console.log(student.name);
+console.log(student.age);
