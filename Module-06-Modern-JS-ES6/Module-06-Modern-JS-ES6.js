@@ -314,4 +314,11 @@ if (number % 2 === 0) {
     console.log("Even");
 } else {
     console.log("Odd");
+}let x = 45;
+let y = 30;
+
+if (x > y) {
+    console.log(x);
+} else {
+    console.log(y);
 }
