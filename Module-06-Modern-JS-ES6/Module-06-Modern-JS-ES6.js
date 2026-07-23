@@ -321,4 +321,6 @@ if (x > y) {
     console.log(x);
 } else {
     console.log(y);
+}for (let i = 1; i <= 10; i++) {
+    console.log(i);
 }
