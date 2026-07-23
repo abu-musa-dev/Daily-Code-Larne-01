@@ -297,4 +297,10 @@ console.log(sumArray([1, 2, 3, 4, 5])); // Output: 15function isEven(num) {
 console.log(isEven(7)); // Output: falsefunction celsiusToFahrenheit(celsius) {
     return (celsius * 9/5) + 32;
 }
-console.log(celsiusToFahrenheit(30)); // Output: 86
+console.log(celsiusToFahrenheit(30)); // Output: 86let name = "Musa";
+let age = 22;
+let country = "Bangladesh";
+
+console.log(name);
+console.log(age);
+console.log(country);
