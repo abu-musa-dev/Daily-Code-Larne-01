@@ -323,4 +323,8 @@ if (x > y) {
     console.log(y);
 }for (let i = 1; i <= 10; i++) {
     console.log(i);
+}let fruits = ["Apple", "Mango", "Banana", "Orange"];
+
+for (let fruit of fruits) {
+    console.log(fruit);
 }
