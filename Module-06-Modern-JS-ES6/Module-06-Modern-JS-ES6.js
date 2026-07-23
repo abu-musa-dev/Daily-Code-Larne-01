@@ -327,4 +327,8 @@ if (x > y) {
 
 for (let fruit of fruits) {
     console.log(fruit);
+}function add(a, b) {
+    return a + b;
 }
+
+console.log(add(20, 30));
