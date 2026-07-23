@@ -308,4 +308,10 @@ let b = 25;
 
 let sum = a + b;
 
-console.log(sum);
+console.log(sum);let number = 18;
+
+if (number % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odd");
+}
