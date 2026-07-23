@@ -338,4 +338,8 @@ console.log(add(20, 30));let student = {
 };
 
 console.log(student.name);
-console.log(student.age);
+console.log(student.age);let text = "JavaScript";
+
+let reverse = text.split("").reverse().join("");
+
+console.log(reverse);
