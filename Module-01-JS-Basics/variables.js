@@ -43,3 +43,6 @@ wordFrequency("js is fun js")
 //   is: 1,
 //   fun: 1
 // }
+
+sortNumbers([9,2,7,1,5])
+// Output: [1,2,5,7,9]
