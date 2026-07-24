@@ -35,3 +35,11 @@ capitalizeWords("i love javascript")
 
 findMissing([1,2,3,5])
 // Output: 4
+
+wordFrequency("js is fun js")
+// Output:
+// {
+//   js: 2,
+//   is: 1,
+//   fun: 1
+// }
