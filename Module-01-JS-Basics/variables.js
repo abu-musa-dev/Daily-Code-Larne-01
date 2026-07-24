@@ -18,3 +18,5 @@ let arry = [ "apple", "komla", "'lebu", "sugar" ]
 arry.pop()
 reverseString("hello")
 // Output: "olleh"
+// Output: "olleh"
+// Output: "olleh"
