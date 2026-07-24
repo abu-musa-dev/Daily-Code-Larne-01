@@ -32,3 +32,6 @@ removeDuplicates([1,2,2,3,4,4,5])
 
 capitalizeWords("i love javascript")
 // Output: "I Love Javascript"
+
+findMissing([1,2,3,5])
+// Output: 4
