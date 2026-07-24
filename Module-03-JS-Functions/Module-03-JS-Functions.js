@@ -40,4 +40,13 @@ console.log(Math.max(...numbers));function add(a, b) {
   return a + b;
 }
 
-console.log(add(15, 35));
+console.log(add(15, 35));git commit -m "Initialize JavaScript practice project"
+git commit -m "Add basic variable examples"
+git commit -m "Implement conditional statements"
+git commit -m "Practice loop examples"
+git commit -m "Add array manipulation exercises"
+git commit -m "Implement string utility functions"
+git commit -m "Practice JavaScript functions"
+git commit -m "Refactor JavaScript practice solutions"
+git commit -m "Improve code readability and formatting"
+git commit -m "Complete JavaScript fundamentals practice"
