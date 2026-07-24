@@ -21,3 +21,8 @@ reverseString("hello")
 // Output: "olleh"
 // Output: "olleh"countVowels("JavaScript")
 // Output: 3
+
+isPalindrome("madam")
+// Output: true
+isPalindrome("madam")
+// Output: true
