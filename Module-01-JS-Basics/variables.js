@@ -19,4 +19,5 @@ arry.pop()
 reverseString("hello")
 // Output: "olleh"
 // Output: "olleh"
-// Output: "olleh"
+// Output: "olleh"countVowels("JavaScript")
+// Output: 3
