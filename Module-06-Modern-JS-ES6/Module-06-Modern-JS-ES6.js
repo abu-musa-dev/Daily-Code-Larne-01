@@ -353,4 +353,9 @@ let b = 20;
 // Output: 30// Example
 let num = 15;
 
-// Output: Odd
+// Output: Odd// Example
+let a = 50;
+let b = 80;
+let c = 30;
+
+// Output: 80
