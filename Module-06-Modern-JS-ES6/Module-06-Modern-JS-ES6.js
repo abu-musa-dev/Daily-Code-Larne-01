@@ -373,4 +373,7 @@ let num = 7;
 // Output:
 // 7 x 1 = 7
 // ...
-// 7 x 10 = 70
+// 7 x 10 = 70// Example
+let numbers = [5, 12, 8, 45, 21];
+
+// Output: 45
