@@ -376,4 +376,8 @@ let num = 7;
 // 7 x 10 = 70// Example
 let numbers = [5, 12, 8, 45, 21];
 
-// Output: 45
+// Output: 45// Example
+let numbers = [1, 2, 2, 3, 4, 4, 5];
+
+// Output:
+// [1, 2, 3, 4, 5]
