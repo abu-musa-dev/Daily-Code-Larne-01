@@ -350,4 +350,7 @@ console.log(max);// Example
 let a = 10;
 let b = 20;
 
-// Output: 30
+// Output: 30// Example
+let num = 15;
+
+// Output: Odd
