@@ -361,4 +361,7 @@ let c = 30;
 // Output: 80// Example
 let text = "JavaScript";
 
-// Output: tpircSavaJ
+// Output: tpircSavaJ// Example
+let text = "Programming";
+
+// Output: 3
