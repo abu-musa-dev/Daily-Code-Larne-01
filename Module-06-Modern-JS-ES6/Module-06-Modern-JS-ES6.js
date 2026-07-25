@@ -367,4 +367,10 @@ let text = "Programming";
 // Output: 3// Example
 let num = 5;
 
-// Output: 120
+// Output: 120// Example
+let num = 7;
+
+// Output:
+// 7 x 1 = 7
+// ...
+// 7 x 10 = 70
