@@ -380,4 +380,7 @@ let numbers = [5, 12, 8, 45, 21];
 let numbers = [1, 2, 2, 3, 4, 4, 5];
 
 // Output:
-// [1, 2, 3, 4, 5]
+// [1, 2, 3, 4, 5]// Example
+let text = "madam";
+
+// Output: Palindrome
