@@ -364,4 +364,7 @@ let text = "JavaScript";
 // Output: tpircSavaJ// Example
 let text = "Programming";
 
-// Output: 3
+// Output: 3// Example
+let num = 5;
+
+// Output: 120
