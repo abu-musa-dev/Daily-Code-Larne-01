@@ -346,4 +346,8 @@ console.log(reverse);let numbers = [12, 45, 8, 90, 33];
 
 let max = Math.max(...numbers);
 
-console.log(max);
+console.log(max);// Example
+let a = 10;
+let b = 20;
+
+// Output: 30
