@@ -124,5 +124,3 @@ console.log(cloned.address.city);   // Output: Sylhet
  * @param {number} target
  * @returns {number[]} - Indices of the two numbers
  */
-function twoSum(nums, target) {
-  const numMap = new Map(); // ভ্যালু এবং ইনডেক্স ট্র্যাক রাখার জন্য
