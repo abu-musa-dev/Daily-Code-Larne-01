@@ -139,8 +139,5 @@ function twoSum(nums, target) {
     numMap.set(nums[i], i);
   }
 
-  return []; // কোনো জোড়া পাওয়া না গেলে খালি অ্যারে
-}
-
-// ব্যবহারের উদাহরণ:
+  
 
