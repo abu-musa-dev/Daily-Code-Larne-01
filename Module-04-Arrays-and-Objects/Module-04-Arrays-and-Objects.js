@@ -101,18 +101,3 @@ function deepClone(obj) {
 }
 
 // ব্যবহারের উদাহরণ:
-const original = {
-  name: "Rahim",
-  skills: ["JavaScript", "React"],
-  address: {
-    city: "Dhaka",
-    zip: 1207
-  }
-};
-
-const cloned = deepClone(original);
-cloned.address.city = "Sylhet"; // ক্লোনড অবজেক্ট পরিবর্তন করা হলো
-
-console.log(original.address.city); // Output: Dhaka (মূল অবজেক্ট অপরিবর্তিত আছে)
-console.log(cloned.address.city);   // Output: Sylhet
-
