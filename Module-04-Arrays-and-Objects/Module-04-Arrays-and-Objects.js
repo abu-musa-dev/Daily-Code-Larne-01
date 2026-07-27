@@ -153,13 +153,4 @@ console.log(twoSum(numbers, targetValue)); // Output: [0, 1] (কারণ 2 + 7
  * @param {Array} arr - The nested array.
  * @returns {Array} - The flattened array.
  */
-function flattenArray(arr) {
-  return arr.reduce((accumulator, currentValue) => {
-    // যদি বর্তমান উপাদানটি একটি অ্যারে হয়, তবে আবার কল করা হবে
-    if (Array.isArray(currentValue)) {
-      return accumulator.concat(flattenArray(currentValue));
-    } else {
-      return accumulator.concat(currentValue);
-    }
-  }, []);
-}
+
