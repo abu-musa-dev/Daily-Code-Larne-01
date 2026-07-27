@@ -131,13 +131,3 @@ function twoSum(nums, target) {
     const complement = target - nums[i];
 
     // যদি পরিপূরক সংখ্যাটি ম্যাপে থাকে, তবে ইনডেক্স দুটি রিটার্ন করবে
-    if (numMap.has(complement)) {
-      return [numMap.get(complement), i];
-    }
-
-    // অন্যথায় বর্তমান সংখ্যা এবং ইনডেক্স ম্যাপে যোগ করবে
-    numMap.set(nums[i], i);
-  }
-
-  
-
