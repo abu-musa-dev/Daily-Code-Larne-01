@@ -116,11 +116,3 @@ cloned.address.city = "Sylhet"; // ক্লোনড অবজেক্ট প�
 console.log(original.address.city); // Output: Dhaka (মূল অবজেক্ট অপরিবর্তিত আছে)
 console.log(cloned.address.city);   // Output: Sylhet
 
-
-/**
- * Finds two numbers in an array that add up to a specific target.
- * Time Complexity: O(n) | Space Complexity: O(n)
- * @param {number[]} nums
- * @param {number} target
- * @returns {number[]} - Indices of the two numbers
- */
