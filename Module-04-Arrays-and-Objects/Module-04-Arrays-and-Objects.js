@@ -163,8 +163,3 @@ function flattenArray(arr) {
     }
   }, []);
 }
-
-// ব্যবহারের উদাহরণ:
-const nestedArray = [1, [2, [3, 4], 5], 6, [7]];
-console.log(flattenArray(nestedArray)); 
-// Output: [1, 2, 3, 4, 5, 6, 7]
