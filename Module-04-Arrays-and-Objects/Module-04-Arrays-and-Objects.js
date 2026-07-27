@@ -89,15 +89,3 @@ function deepClone(obj) {
 
   // অ্যারে নাকি অবজেক্ট তা নির্ধারণ করা হচ্ছে
   const clone = Array.isArray(obj) ? [] : {};
-
-  for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
-      // রিকার্সিভলি ভেতরের ভ্যালুগুলো ক্লোন করা হচ্ছে
-      clone[key] = deepClone(obj[key]);
-    }
-  }
-
-  return clone;
-}
-
-// ব্যবহারের উদাহরণ:
