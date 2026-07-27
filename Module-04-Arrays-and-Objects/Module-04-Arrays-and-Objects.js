@@ -126,8 +126,3 @@ console.log(cloned.address.city);   // Output: Sylhet
  */
 function twoSum(nums, target) {
   const numMap = new Map(); // ভ্যালু এবং ইনডেক্স ট্র্যাক রাখার জন্য
-
-  for (let i = 0; i < nums.length; i++) {
-    const complement = target - nums[i];
-
-    // যদি পরিপূরক সংখ্যাটি ম্যাপে থাকে, তবে ইনডেক্স দুটি রিটার্ন করবে
