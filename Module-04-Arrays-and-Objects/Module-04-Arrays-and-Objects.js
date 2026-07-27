@@ -143,14 +143,4 @@ function twoSum(nums, target) {
 }
 
 // ব্যবহারের উদাহরণ:
-const numbers = [2, 7, 11, 15];
-const targetValue = 9;
-console.log(twoSum(numbers, targetValue)); // Output: [0, 1] (কারণ 2 + 7 = 9)
-
-
-/**
- * Flattens a deeply nested array into a single-dimensional array.
- * @param {Array} arr - The nested array.
- * @returns {Array} - The flattened array.
- */
 
