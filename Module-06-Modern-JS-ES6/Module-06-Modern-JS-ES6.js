@@ -358,9 +358,3 @@ let a = 50;
 let b = 80;
 let c = 30;
 
-// Output: 80// Example
-let text = "JavaScript";
-
-// Output: tpircSavaJ// Example
-let text = "Programming";
-
