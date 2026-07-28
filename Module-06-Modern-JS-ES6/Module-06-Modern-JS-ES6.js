@@ -342,5 +342,4 @@ console.log(student.age);let text = "JavaScript";
 
 let reverse = text.split("").reverse().join("");
 
-console.log(reverse);let numbers = [12, 45, 8, 90, 33];
 
