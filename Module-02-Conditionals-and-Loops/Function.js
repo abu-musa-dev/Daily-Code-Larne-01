@@ -108,3 +108,6 @@ sumArray([1, 2, 3, 4])
 // Output: 10
 capitalizeWords("hello world")
 // Output: "Hello World"
+findEvenNumbers([1, 2, 3, 4, 5, 6])
+// Output: [2, 4, 6]findEvenNumbers([1, 2, 3, 4, 5, 6])
+// Output: [2, 4, 6]
