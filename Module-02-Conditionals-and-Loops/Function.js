@@ -106,3 +106,5 @@ factorial(5)
 // Output: 120
 sumArray([1, 2, 3, 4])
 // Output: 10
+capitalizeWords("hello world")
+// Output: "Hello World"
