@@ -89,3 +89,5 @@ reverseString("hello")
 // Output: 30
 findLargest([5, 10, 2, 30, 8])
 // Output: 30
+isPalindrome("madam")
+// Output: true
