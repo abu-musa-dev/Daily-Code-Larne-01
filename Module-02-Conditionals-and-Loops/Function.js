@@ -102,3 +102,5 @@ Problem 6: FizzBuzz
 3 দ্বারা divisible হলে → Fizz
 5 দ্বারা divisible হলে → Buzz
 দুটোই হলে → FizzBuzz
+factorial(5)
+// Output: 120
