@@ -95,3 +95,10 @@ countVowels("JavaScript")
 // Output: 3
 removeDuplicates([1, 2, 2, 3, 4, 4])
 // Output: [1, 2, 3, 4]
+Problem 6: FizzBuzz
+
+১ থেকে ১০০ পর্যন্ত print করো।
+
+3 দ্বারা divisible হলে → Fizz
+5 দ্বারা divisible হলে → Buzz
+দুটোই হলে → FizzBuzz
