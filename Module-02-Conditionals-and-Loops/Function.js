@@ -84,3 +84,5 @@ console.log(generateFibonacci(6)); // Output: [0, 1, 1, 2, 3, 5]
 git add .
 git commit -m "feat: add fibonacci sequence generator"
 git push
+reverseString("hello")
+// Output: "olleh"
