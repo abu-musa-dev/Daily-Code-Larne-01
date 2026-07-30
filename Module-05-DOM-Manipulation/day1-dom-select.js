@@ -107,3 +107,11 @@ Output: [1,2,3,4]Input: "JavaScript"
 Output: 3
 Input: 5
 Output: 120
+. FizzBuzz
+
+Problem:
+১ থেকে ১০০ পর্যন্ত print করো।
+
+3 দ্বারা divisible হলে Fizz
+5 দ্বারা divisible হলে Buzz
+উভয় দ্বারা divisible হলে FizzBuzz
