@@ -97,3 +97,5 @@ else console.log("Fail");
 // problem10.js
 const n = 6;
 console.log(n * n);
+Input: "hello"
+Output: "olleh"
