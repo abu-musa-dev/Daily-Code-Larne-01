@@ -99,3 +99,5 @@ const n = 6;
 console.log(n * n);
 Input: "hello"
 Output: "olleh"
+Input: "madam"
+Output: true
