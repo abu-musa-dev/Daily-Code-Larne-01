@@ -100,4 +100,5 @@ console.log(n * n);
 Input: "hello"
 Output: "olleh"
 Input: "madam"
-Output: true
+Output: trueInput: [5, 10, 3, 20]
+Output: 20
