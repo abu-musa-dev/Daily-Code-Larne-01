@@ -120,3 +120,12 @@ Output: [2,4,6]
 
 Input: "hello world"
 Output: "Hello World"
+
+Input: "apple banana apple orange banana apple"
+
+Output:
+{
+  apple: 3,
+  banana: 2,
+  orange: 1
+}
