@@ -57,3 +57,8 @@ const numbers = [12, 45, 2, 78, 34];
 function findLargest(arr) {
 
 }
+const text = "JavaScript";
+
+function reverseString(str) {
+
+}
