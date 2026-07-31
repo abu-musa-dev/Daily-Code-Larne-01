@@ -68,3 +68,8 @@ const numbers = [4, 7, 10, 15, 22, 31];
 function countEven(arr) {
 
 }
+const fruits = ["apple", "banana", "apple", "orange", "banana"];
+
+function removeDuplicates(arr) {
+
+}
