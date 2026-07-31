@@ -50,3 +50,10 @@ git commit -m "Practice JavaScript functions"
 git commit -m "Refactor JavaScript practice solutions"
 git commit -m "Improve code readability and formatting"
 git commit -m "Complete JavaScript fundamentals practice"
+
+
+const numbers = [12, 45, 2, 78, 34];
+
+function findLargest(arr) {
+
+}
