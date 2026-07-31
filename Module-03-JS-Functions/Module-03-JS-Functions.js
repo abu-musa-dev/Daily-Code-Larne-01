@@ -78,3 +78,8 @@ const numbers = [10, 20, 30, 40];
 function sumArray(arr) {
 
 }
+const word = "madam";
+
+function isPalindrome(str) {
+
+}
