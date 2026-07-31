@@ -99,3 +99,8 @@ const numbers = [12, 50, 8, 99, 45];
 function secondLargest(arr) {
 
 }
+const sentence = "apple banana apple orange banana apple";
+
+function wordFrequency(text) {
+
+}
