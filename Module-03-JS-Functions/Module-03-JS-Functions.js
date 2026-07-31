@@ -73,3 +73,8 @@ const fruits = ["apple", "banana", "apple", "orange", "banana"];
 function removeDuplicates(arr) {
 
 }
+const numbers = [10, 20, 30, 40];
+
+function sumArray(arr) {
+
+}
