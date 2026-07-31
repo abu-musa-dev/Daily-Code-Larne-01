@@ -62,3 +62,9 @@ const text = "JavaScript";
 function reverseString(str) {
 
 }
+
+const numbers = [4, 7, 10, 15, 22, 31];
+
+function countEven(arr) {
+
+}
