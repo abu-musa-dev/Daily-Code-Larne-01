@@ -94,3 +94,8 @@ const sentence = "i love javascript";
 function capitalizeWords(text) {
 
 }
+const numbers = [12, 50, 8, 99, 45];
+
+function secondLargest(arr) {
+
+}
