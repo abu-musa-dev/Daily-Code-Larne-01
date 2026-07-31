@@ -89,3 +89,8 @@ const numbers = [1,2,3,4,5,6,8,9,10];
 function findMissing(arr) {
 
 }
+const sentence = "i love javascript";
+
+function capitalizeWords(text) {
+
+}
