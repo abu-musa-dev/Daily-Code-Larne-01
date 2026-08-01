@@ -342,3 +342,4 @@ const numbers = [10, 50, 3, 99, 45];
 const numbers = [1,2,3,2,4,5,1,6];
 const text = "OpenAI";
 const numbers = [10,20,30,40];
+const text = "madam";
