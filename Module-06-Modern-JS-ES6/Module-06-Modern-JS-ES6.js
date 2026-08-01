@@ -343,3 +343,15 @@ const numbers = [1,2,3,2,4,5,1,6];
 const text = "OpenAI";
 const numbers = [10,20,30,40];
 const text = "madam";
+7. FizzBuzz
+
+Problem:
+
+Print numbers from 1 to 100
+
+Rules:
+
+divisible by 3 → Fizz
+divisible by 5 → Buzz
+divisible by both → FizzBuzz
+Git
