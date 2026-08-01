@@ -338,3 +338,4 @@ console.log(add(20, 30));let student = {
 };
 
 const text = "javascript";
+const numbers = [10, 50, 3, 99, 45];
