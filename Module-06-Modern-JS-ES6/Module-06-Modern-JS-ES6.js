@@ -337,4 +337,4 @@ console.log(add(20, 30));let student = {
     department: "CSE"
 };
 
-
+const text = "javascript";
