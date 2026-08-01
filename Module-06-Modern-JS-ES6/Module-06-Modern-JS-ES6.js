@@ -355,3 +355,5 @@ divisible by 3 → Fizz
 divisible by 5 → Buzz
 divisible by both → FizzBuzz
 Git
+
+const numbers = [1,2,3,4,5,6,7,8,9,10];
