@@ -89,3 +89,6 @@ function deepClone(obj) {
 
 findMax([10, 5, 25, 8]); // 25
 reverseString("hello"); // "olleh"
+
+isPalindrome("madam"); // true
+isPalindrome("hello"); // false
