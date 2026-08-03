@@ -92,3 +92,4 @@ reverseString("hello"); // "olleh"
 
 isPalindrome("madam"); // true
 isPalindrome("hello"); // false
+countVowels("javascript"); // 3
