@@ -87,3 +87,4 @@ function deepClone(obj) {
     return obj;
   }
 
+findMax([10, 5, 25, 8]); // 25
