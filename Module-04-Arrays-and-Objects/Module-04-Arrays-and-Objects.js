@@ -106,3 +106,4 @@ git push
 git add .
 git commit -m "Filter even numbers from array"
 git push
+factorial(5); // 120
