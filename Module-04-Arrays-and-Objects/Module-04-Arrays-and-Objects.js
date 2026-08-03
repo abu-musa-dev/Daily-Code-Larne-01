@@ -87,5 +87,3 @@ function deepClone(obj) {
     return obj;
   }
 
-  // অ্যারে নাকি অবজেক্ট তা নির্ধারণ করা হচ্ছে
-  const clone = Array.isArray(obj) ? [] : {};
