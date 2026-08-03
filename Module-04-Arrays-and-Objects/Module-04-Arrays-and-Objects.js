@@ -107,3 +107,5 @@ git add .
 git commit -m "Filter even numbers from array"
 git push
 factorial(5); // 120
+twoSum([2,7,11,15], 9);
+// [0,1]
