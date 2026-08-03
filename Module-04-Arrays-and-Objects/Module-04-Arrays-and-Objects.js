@@ -97,3 +97,12 @@ removeDuplicates([1,2,2,3,4,4,5]);
 // [1,2,3,4,5]
 removeDuplicates([1,2,2,3,4,4,5]);
 // [1,2,3,4,5]
+findEven([1,2,3,4,5,6]);
+// [2,4,6]
+
+git add .
+git commit -m "Filter even numbers from array"
+git push
+git add .
+git commit -m "Filter even numbers from array"
+git push
