@@ -129,3 +129,5 @@ Output:
   banana: 2,
   orange: 1
 }
+const numbers = [10, 20, 30, 40];
+
