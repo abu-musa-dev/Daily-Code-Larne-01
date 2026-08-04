@@ -135,3 +135,6 @@ reverseString("hello");
 // Output: "olleh"
 
 const arr = [5, 12, 7, 25, 18];
+
+countVowels("JavaScript");
+// Output: 3
