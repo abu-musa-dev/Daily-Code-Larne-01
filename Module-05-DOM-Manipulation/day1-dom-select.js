@@ -138,5 +138,3 @@ const arr = [5, 12, 7, 25, 18];
 
 countVowels("JavaScript");
 // Output: 3
-[1, 2, 2, 3, 4, 4]
-// Output: [1,2,3,4]
