@@ -362,3 +362,5 @@ const numbers = [10,50,80,30,100,90];
 reverseString("hello"); // "olleh"
 isPalindrome("madam"); // true
 isPalindrome("hello"); // false
+
+findLargest([4, 8, 2, 10, 5]); // 10
