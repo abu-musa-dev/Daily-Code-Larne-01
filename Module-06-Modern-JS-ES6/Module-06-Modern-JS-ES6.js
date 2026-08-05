@@ -364,3 +364,6 @@ isPalindrome("madam"); // true
 isPalindrome("hello"); // false
 
 findLargest([4, 8, 2, 10, 5]); // 10countVowels("JavaScript"); // 3
+
+removeDuplicates([1,2,2,3,4,4]);
+// [1,2,3,4]
