@@ -360,3 +360,5 @@ const numbers = [1,2,3,4,5,6,7,8,9,10];
 const text = "javascript developer";
 const numbers = [10,50,80,30,100,90];
 reverseString("hello"); // "olleh"
+isPalindrome("madam"); // true
+isPalindrome("hello"); // false
