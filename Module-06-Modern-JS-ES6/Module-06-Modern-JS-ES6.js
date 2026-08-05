@@ -366,4 +366,9 @@ isPalindrome("hello"); // false
 findLargest([4, 8, 2, 10, 5]); // 10countVowels("JavaScript"); // 3
 
 removeDuplicates([1,2,2,3,4,4]);
-// [1,2,3,4]
+// [1,2,3,4]6. FizzBuzz
+
+Problem:
+১ থেকে ১০০ পর্যন্ত print করো।
+
+3 দ্বারা divisible হলে Fizz
