@@ -373,3 +373,5 @@ Problem:
 
 3 দ্বারা divisible হলে FizzfindMissing([1,2,3,5]);
 // 4
+capitalizeWords("hello world");
+// "Hello World"
