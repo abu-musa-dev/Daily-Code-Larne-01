@@ -363,4 +363,4 @@ reverseString("hello"); // "olleh"
 isPalindrome("madam"); // true
 isPalindrome("hello"); // false
 
-findLargest([4, 8, 2, 10, 5]); // 10
+findLargest([4, 8, 2, 10, 5]); // 10countVowels("JavaScript"); // 3
