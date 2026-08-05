@@ -377,3 +377,5 @@ capitalizeWords("hello world");
 // "Hello World"
 sortArray([8,3,1,6]);
 // [1,3,6,8]
+factorial(5);
+// 120
