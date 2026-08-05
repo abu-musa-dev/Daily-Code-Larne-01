@@ -371,4 +371,5 @@ removeDuplicates([1,2,2,3,4,4]);
 Problem:
 ১ থেকে ১০০ পর্যন্ত print করো।
 
-3 দ্বারা divisible হলে Fizz
+3 দ্বারা divisible হলে FizzfindMissing([1,2,3,5]);
+// 4
