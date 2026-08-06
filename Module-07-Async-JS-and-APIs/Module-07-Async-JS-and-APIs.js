@@ -261,3 +261,8 @@ print করো।
 3 দ্বারা বিভাজ্য হলে → Fizz
 5 দ্বারা বিভাজ্য হলে → Bu
 Find Miss
+// Input:
+"hello world"
+
+// Output:
+"Hello World"
