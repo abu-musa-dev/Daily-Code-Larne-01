@@ -246,3 +246,8 @@ true
 
 // Output:
 [1,2,3,4,5]
+// Input:
+"javascript"
+
+// Output:
+3
