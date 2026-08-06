@@ -226,3 +226,8 @@ for (let num of numbers) {
     sum += num;
 }
 
+// Input:
+"hello"
+
+// Output:
+"olleh"
