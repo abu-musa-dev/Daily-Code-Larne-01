@@ -231,3 +231,8 @@ for (let num of numbers) {
 
 // Output:
 "olleh"
+// Input:
+[5, 2, 9, 1, 7]
+
+// Output:
+9
