@@ -236,3 +236,8 @@ for (let num of numbers) {
 
 // Output:
 9
+// Input:
+"madam"
+
+// Output:
+true
