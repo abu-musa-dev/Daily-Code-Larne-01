@@ -251,3 +251,8 @@ true
 
 // Output:
 3
+// Input:
+[10,20,30]
+
+// Output:
+60
