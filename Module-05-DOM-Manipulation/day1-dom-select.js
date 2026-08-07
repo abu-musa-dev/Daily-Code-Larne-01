@@ -152,3 +152,6 @@ Input: [1,2,3,4,5,6]
 Output: 12
 Input: "hello world"
 Output: "Hello World"
+
+Input: [1,2,3,5]
+Output: 4
