@@ -148,3 +148,5 @@ Input: "JavaScript"
 Output: 3
 Input: "madam"
 Output: true
+Input: [1,2,3,4,5,6]
+Output: 12
