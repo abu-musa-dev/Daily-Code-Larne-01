@@ -140,3 +140,5 @@ countVowels("JavaScript");
 // Output: 3
 Input: "hello"
 Output: "olleh"
+Input: [10, 20, 5, 45, 8]
+Output: 45
