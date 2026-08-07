@@ -144,3 +144,5 @@ Input: [10, 20, 5, 45, 8]
 Output: 45
 Input: [1,2,2,3,4,4,5]
 Output: [1,2,3,4,5]
+Input: "JavaScript"
+Output: 3
