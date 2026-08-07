@@ -155,3 +155,5 @@ Output: "Hello World"
 
 Input: [1,2,3,5]
 Output: 4
+Input: [5,1,8,2]
+Output: [1,2,5,8]
