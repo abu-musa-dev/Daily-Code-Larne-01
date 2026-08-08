@@ -176,3 +176,10 @@ Problem:
 
 // Input: "hello world"
 // Output: "Hello World"
+Find the Sum of All Even Numbers
+
+Problem:
+একটি array-এর সব even number-এর যোগফল বের করো।
+
+// Input: [1,2,3,4,5,6]
+// Output: 12
