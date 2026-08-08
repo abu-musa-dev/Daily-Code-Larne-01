@@ -169,3 +169,10 @@ Output:
 4. Count Vowels in a String
 5. Remove Duplicate Values from an Array
 6. Find the Factorial of a Number
+Capitalize the First Letter of Each Word
+
+Problem:
+প্রতিটি word-এর প্রথম অক্ষর capital করো।
+
+// Input: "hello world"
+// Output: "Hello World"
