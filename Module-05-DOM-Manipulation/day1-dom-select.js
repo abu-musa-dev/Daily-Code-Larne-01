@@ -160,8 +160,8 @@ Output: [1,2,5,8]
 Input: "banana"
 
 Output:
-{
-  b: 1,
-  a: 3,
-  n: 2
-}
+
+
+// Input: "hello"
+// Output: "olleh"
+
