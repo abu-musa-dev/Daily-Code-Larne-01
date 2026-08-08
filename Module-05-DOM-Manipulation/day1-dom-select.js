@@ -183,3 +183,7 @@ Problem:
 
 // Input: [1,2,3,4,5,6]
 // Output: 12
+9. Check if Two Strings are Anagrams
+
+Problem:
+দুটি string anagram কিনা check করো।
