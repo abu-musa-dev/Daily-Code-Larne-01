@@ -166,3 +166,4 @@ Output:
 // Output: "olleh"
 
 একটি array থেকে সবচেয়ে বড় সংখ্যাটি বের করো।3. Check if a String is Palindrome
+4. Count Vowels in a String
