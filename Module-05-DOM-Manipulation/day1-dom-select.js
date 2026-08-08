@@ -187,3 +187,10 @@ Problem:
 
 Problem:
 দুটি string anagram কিনা check করো।
+10. Flatten a Nested Array
+
+Problem:
+একটি nested array-কে single array-তে convert করো।
+
+// Input: [1,[2,[3,4]],5]
+// Output: [1,2,3,4,5]
