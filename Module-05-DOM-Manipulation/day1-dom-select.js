@@ -199,3 +199,8 @@ Problem:
 
 // Output:
 "olleh"
+// Input:
+"madam"
+
+// Output:
+true
