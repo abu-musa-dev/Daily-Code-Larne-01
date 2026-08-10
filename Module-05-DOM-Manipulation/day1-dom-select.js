@@ -238,3 +238,7 @@ Problem:
 5 দ্বারা divisible → Buzz
 দুটোই হলে → FizzBuzz
 Git Commands
+9. Capitalize First Letter
+Problem:
+
+Sentence-এর প্রতিটি word-এর প্রথম letter capital করো।
