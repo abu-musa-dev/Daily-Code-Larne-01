@@ -224,3 +224,8 @@ true
 
 // Output:
 30
+// Input:
+5
+
+// Output:
+120
