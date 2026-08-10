@@ -204,3 +204,8 @@ Problem:
 
 // Output:
 true
+// Input:
+[10, 45, 2, 99, 23]
+
+// Output:
+99
