@@ -229,3 +229,12 @@ true
 
 // Output:
 120
+8. FizzBuzz
+Problem:
+
+১ থেকে ১০০ পর্যন্ত print করো।
+
+3 দ্বারা divisible → Fizz
+5 দ্বারা divisible → Buzz
+দুটোই হলে → FizzBuzz
+Git Commands
