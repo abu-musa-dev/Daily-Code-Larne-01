@@ -274,3 +274,5 @@ Find Miss
 Output: "olleh"
 Input: "madam"
 Output: true
+Input: [4, 8, 1, 15, 9]
+Output: 15
