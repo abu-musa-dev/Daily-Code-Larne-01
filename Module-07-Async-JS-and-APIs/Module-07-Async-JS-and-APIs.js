@@ -284,3 +284,5 @@ Output: 3Input: 7
 Output: [0,1,1,2,3,5,8]
 Input: [5,10,15]
 Output: 30
+Input: "hello world"
+Output: "Hello World"
