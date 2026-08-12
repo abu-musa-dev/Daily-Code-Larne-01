@@ -294,3 +294,7 @@ Output:
   banana: 2,
   orange: 1
 }
+
+Problem 1: Reverse a String
+
+Task: একটি function লিখো যা একটি string reverse করবে।
